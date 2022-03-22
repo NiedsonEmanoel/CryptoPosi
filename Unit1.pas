@@ -38,7 +38,7 @@ type
     { Public declarations }
   end;
 
-var                                        '
+var                                        
   Form1: TForm1;
   Chave: String;
   L: Integer  ;
@@ -53,9 +53,9 @@ var Simbolos : array [0..4] of String;
 x            : Integer;
 begin
         Simbolos[1]:='ABCDEFGHIJLMNOPQRSTUVXZYWK ~!@#$%^&*()';
-        Simbolos[2]:= 'ÂÀ©Øû×ƒçêùÿ5Üø£úñÑªº¿®¬¼ëèïÙıÄÅÉæÆôöò»Á';
+        Simbolos[2]:= 'Ã‚Ã€Â©Ã˜Ã»Ã—Æ’Ã§ÃªÃ¹Ã¿5ÃœÃ¸Â£ÃºÃ±Ã‘ÂªÂºÂ¿Â®Â¬Â¼Ã«Ã¨Ã¯Ã™Ã½Ã„Ã…Ã‰Ã¦Ã†Ã´Ã¶Ã²Â»Ã';
         Simbolos[3]:= 'abcdefghijlmnopqrstuvxzywk1234567890';
-        Simbolos[4]:= 'áâäàåíóÇüé¾¶§÷ÎÏ-+ÌÓß¸°¨·¹³²Õµşîì¡«½';
+        Simbolos[4]:= 'Ã¡Ã¢Ã¤Ã Ã¥Ã­Ã³Ã‡Ã¼Ã©Â¾Â¶Â§Ã·ÃÃ-+ÃŒÃ“ÃŸÂ¸Â°Â¨Â·Â¹Â³Â²Ã•ÂµÃ¾Ã®Ã¬Â¡Â«Â½';
 
         for x := 1 to Length(Trim(wStri)) do
 		begin
